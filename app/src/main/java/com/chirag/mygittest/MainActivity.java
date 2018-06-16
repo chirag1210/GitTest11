@@ -17,11 +17,15 @@ public class MainActivity extends AppCompatActivity {
         Log.e("", "");
     }
 
+    private void addNewMethod1() {
+        Log.e("addNewMethod1", "addNewMethod1");
+    }
+
     public void TestUpload() {
 
         int i2 = 2 + 2;
 
-        String test = "master branch";
+        String test = "branch02";
     }
 
 
