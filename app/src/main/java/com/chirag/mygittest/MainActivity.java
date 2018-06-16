@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e("addNewMethod1", "addNewMethod1");
     }
 
+
     public void TestUpload() {
 
         int i2 = 2 + 2;
