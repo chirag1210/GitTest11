@@ -13,9 +13,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void TestUpload() {
 
-        int i = 2 + 2;
+        int iii = 2 + 2;
 
-        String test = "merging branch02";
+        String test = "master branch";
     }
 
 
