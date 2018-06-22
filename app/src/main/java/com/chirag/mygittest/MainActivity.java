@@ -9,6 +9,10 @@ import rx.Observer;
 import rx.Subscription;
 import rx.functions.Action1;
 
+/**
+ * Main activity from branch1
+ */
+
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = MainActivity.class.getSimpleName();
@@ -58,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         subscription.unsubscribe();
     }
 
+
     private void JustOperator1() {
         Observable<String> myObservable = Observable.just("Hello"); // Emits "Hello"
         Action1<String> myAction = new Action1<String>() {
@@ -70,7 +75,5 @@ public class MainActivity extends AppCompatActivity {
         Subscription subscription = myObservable.subscribe(myAction);
         subscription.unsubscribe();
     }
+
 }
-
-
-
