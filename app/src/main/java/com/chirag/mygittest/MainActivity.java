@@ -9,6 +9,9 @@ import rx.Observer;
 import rx.Subscription;
 import rx.functions.Action1;
 
+/**
+ * mast main activity comments
+ */
 public class MainActivity extends AppCompatActivity {
 
     private String TAG = MainActivity.class.getSimpleName();
